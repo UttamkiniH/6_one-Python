@@ -10,6 +10,10 @@ print(x)#Function call
 x=13
 print(x)#The value of X is OverWritten
 
+#Python 3 will return float value in division operator(/)
+u=8/4
+print(u)
+
 #Follow the Order of Evaluation (), **, * or /(L to R), + or - (L to R), Left to Right
 x=3.9*x*1-x 
 print(x)
