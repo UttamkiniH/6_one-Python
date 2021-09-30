@@ -41,5 +41,8 @@ name=input('Is it even?')
 print(name) #Python will Take both the user inputs
 
 #Always Remember THE USER INPUT WILL BE STRING TYPE
-age=input('Whats your age?')
-print('Age = ',age)
+age=int(input('Whats your age?'))
+if age > 18 :
+  print('Age = ',age)
+else :
+  print("Not yet 18")
